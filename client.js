@@ -2,7 +2,7 @@ let div    = document.querySelector('div');
 let button = document.querySelector('button');
 
 button.addEventListener('click', function() {
-	fetch(`OsnovaServer${btn.innerHTML}.html`)
+	fetch(`glav.html`)
 		.then(
 		response => {
 			return response.text();
